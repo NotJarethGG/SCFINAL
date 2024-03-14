@@ -2,7 +2,7 @@ import api from "../api/config";
 
 export const getUsuarios = async () => { 
     let data = await api.get('usuarios').then(result => result.data);
-    console.log(data)
+    
     return data;
 };
 
